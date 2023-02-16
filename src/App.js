@@ -26,13 +26,6 @@ function App() {
             tel={contacts[2].phone}
             email={contacts[2].email}
         />,
-        {/* <Celebrity 
-            name={contacts[3].name}
-            img={contacts[3].imgURL}
-            tel={contacts[3].phone}
-            email={contacts[3].email}
-        /> */}
-        {/* <Contacts /> */}
     </div>
   )
 }

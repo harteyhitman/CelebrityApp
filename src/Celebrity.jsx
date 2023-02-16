@@ -1,4 +1,5 @@
 import React from 'react'
+import Avatar from './Avatar'
 
 function Celebrity(props) {
     console.log(props, "conts")
@@ -8,10 +9,7 @@ function Celebrity(props) {
     <div className="card">
       <div className="top">
         <h2>{props.name}</h2>
-        <img className='image'
-          src={props.img}
-          alt="avatar_img"
-        />
+       <Avatar img={props.img}/>
       </div>
       <div className="bottom">
         <p>{props.tel}</p>
